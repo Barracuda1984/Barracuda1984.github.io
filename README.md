@@ -4,6 +4,8 @@ Osobní/firemní web na GitHub Pages. Statické `index.html`, bez buildu (`.noje
 
 ## Postup nasazení
 
+Skript `setup-gh.sh` je jen lokální (není v repu, ignorován přes `.git/info/exclude`).
+
 1. **Repo + Pages** – `./setup-gh.sh repo`
    (přihlásí `gh`, založí veřejné repo `Barracuda1984.github.io`, pushne a zapne Pages z `main` /).
 2. **Ověření domény** (jen přes web, API to neumí):
